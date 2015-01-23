@@ -1,0 +1,13 @@
+#忽略cocos2d引擎
+cocos2d/
+
+#忽略编译后的文件
+proj.win32/Debug.win32/
+
+#忽略vs自动生成的文件
+proj.win32/*.sdf
+proj.win32/*.opensdf
+proj.win32/*.v11.suo
+
+#忽略log文件
+Resources/*.log
