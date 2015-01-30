@@ -66,8 +66,249 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="res\res1.bin" />
+    <None Include="..\Resources\music.ogg">
+      <Filter>resource</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\game.ico" />
+    <Image Include="..\Resources\bg_mainscene.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bg_menuscene.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bg_menuscene_yj.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bg_menuscene_zx.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\bg_menuscene_zx2014.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\blue.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\blue_heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Cancel.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\click_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\click_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\coin_add.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\combo_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\combo_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\combo_3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Dialog_bg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Dialog_bg2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Dialog_Item.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Dialog_Item2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Dialog_Title.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\diamond.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\fireworks.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\GameOver.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\green.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\green_heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Help_1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Help_2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Item_pause.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_about.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_CDKEY.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_continue.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_continue2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_continuegame.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_help.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_lingjiang.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_lingqu.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_money.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_moregame.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_shop.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_sound_off.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_sound_on.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_start.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_Text.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\menu_top.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\MrDu.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\MrDu_choujiang1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\MrDu_choujiang2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\new.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\orange.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\orange_heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\paint_arrow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\paint_back.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\paint_bg.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Pause.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Props_Bomb.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Props_Paint.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Props_Rainbow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\purple.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\purple_heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\red.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\red_heart.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Shop_Onece.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\sound_on.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\stage_clear.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\star.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_CDKEY.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_choujiang.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_Help.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_OneceShop.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_Pause.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_QuickShop.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Title_shop.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\zengsong.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\ChineseWords.xml">
+      <Filter>resource</Filter>
+    </Xml>
+    <Xml Include="..\Resources\feedata.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\OGLdpf.log">
+      <Filter>resource</Filter>
+    </Text>
   </ItemGroup>
 </Project>

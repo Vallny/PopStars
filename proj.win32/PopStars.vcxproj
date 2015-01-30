@@ -172,10 +172,93 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ResourceCompile Include="game.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Resources\music.ogg" />
     <None Include="res\res1.bin" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\Resources\bg_mainscene.jpg" />
+    <Image Include="..\Resources\bg_menuscene.jpg" />
+    <Image Include="..\Resources\bg_menuscene_yj.png" />
+    <Image Include="..\Resources\bg_menuscene_zx.png" />
+    <Image Include="..\Resources\bg_menuscene_zx2014.png" />
+    <Image Include="..\Resources\blue.png" />
+    <Image Include="..\Resources\blue_heart.png" />
+    <Image Include="..\Resources\Cancel.png" />
+    <Image Include="..\Resources\click_1.png" />
+    <Image Include="..\Resources\click_2.png" />
+    <Image Include="..\Resources\CloseNormal.png" />
+    <Image Include="..\Resources\CloseSelected.png" />
+    <Image Include="..\Resources\coin_add.png" />
+    <Image Include="..\Resources\combo_1.png" />
+    <Image Include="..\Resources\combo_2.png" />
+    <Image Include="..\Resources\combo_3.png" />
+    <Image Include="..\Resources\Dialog_bg.png" />
+    <Image Include="..\Resources\Dialog_bg2.png" />
+    <Image Include="..\Resources\Dialog_Item.png" />
+    <Image Include="..\Resources\Dialog_Item2.png" />
+    <Image Include="..\Resources\Dialog_Title.png" />
+    <Image Include="..\Resources\diamond.png" />
+    <Image Include="..\Resources\fireworks.png" />
+    <Image Include="..\Resources\GameOver.png" />
+    <Image Include="..\Resources\green.png" />
+    <Image Include="..\Resources\green_heart.png" />
+    <Image Include="..\Resources\HelloWorld.png" />
+    <Image Include="..\Resources\Help_1.png" />
+    <Image Include="..\Resources\Help_2.png" />
+    <Image Include="..\Resources\Item_pause.png" />
+    <Image Include="..\Resources\menu_about.png" />
+    <Image Include="..\Resources\menu_CDKEY.png" />
+    <Image Include="..\Resources\menu_continue.png" />
+    <Image Include="..\Resources\menu_continue2.png" />
+    <Image Include="..\Resources\menu_continuegame.png" />
+    <Image Include="..\Resources\menu_help.png" />
+    <Image Include="..\Resources\menu_lingjiang.png" />
+    <Image Include="..\Resources\menu_lingqu.png" />
+    <Image Include="..\Resources\menu_money.png" />
+    <Image Include="..\Resources\menu_moregame.png" />
+    <Image Include="..\Resources\menu_shop.png" />
+    <Image Include="..\Resources\menu_sound_off.png" />
+    <Image Include="..\Resources\menu_sound_on.png" />
+    <Image Include="..\Resources\menu_start.png" />
+    <Image Include="..\Resources\menu_Text.png" />
+    <Image Include="..\Resources\menu_top.png" />
+    <Image Include="..\Resources\MrDu.png" />
+    <Image Include="..\Resources\MrDu_choujiang1.png" />
+    <Image Include="..\Resources\MrDu_choujiang2.png" />
+    <Image Include="..\Resources\new.png" />
+    <Image Include="..\Resources\orange.png" />
+    <Image Include="..\Resources\orange_heart.png" />
+    <Image Include="..\Resources\paint_arrow.png" />
+    <Image Include="..\Resources\paint_back.png" />
+    <Image Include="..\Resources\paint_bg.png" />
+    <Image Include="..\Resources\Pause.png" />
+    <Image Include="..\Resources\Props_Bomb.png" />
+    <Image Include="..\Resources\Props_Paint.png" />
+    <Image Include="..\Resources\Props_Rainbow.png" />
+    <Image Include="..\Resources\purple.png" />
+    <Image Include="..\Resources\purple_heart.png" />
+    <Image Include="..\Resources\red.png" />
+    <Image Include="..\Resources\red_heart.png" />
+    <Image Include="..\Resources\Shop_Onece.png" />
+    <Image Include="..\Resources\sound_on.png" />
+    <Image Include="..\Resources\stage_clear.png" />
+    <Image Include="..\Resources\star.png" />
+    <Image Include="..\Resources\Title_CDKEY.png" />
+    <Image Include="..\Resources\Title_choujiang.png" />
+    <Image Include="..\Resources\Title_Help.png" />
+    <Image Include="..\Resources\Title_OneceShop.png" />
+    <Image Include="..\Resources\Title_Pause.png" />
+    <Image Include="..\Resources\Title_QuickShop.png" />
+    <Image Include="..\Resources\Title_shop.png" />
+    <Image Include="..\Resources\zengsong.png" />
     <Image Include="res\game.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\ChineseWords.xml" />
+    <Xml Include="..\Resources\feedata.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\OGLdpf.log" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
