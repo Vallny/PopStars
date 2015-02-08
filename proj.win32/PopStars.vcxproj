@@ -135,6 +135,7 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\Audio.cpp" />
+    <ClCompile Include="..\Classes\Chinese.cpp" />
     <ClCompile Include="..\Classes\FloatWord.cpp" />
     <ClCompile Include="..\Classes\GameData.cpp" />
     <ClCompile Include="..\Classes\GameLayer.cpp" />
@@ -142,11 +143,15 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\MenuLayer.cpp" />
     <ClCompile Include="..\Classes\MenuScene.cpp" />
+    <ClCompile Include="..\Classes\Star.cpp" />
+    <ClCompile Include="..\Classes\StarMatrix.cpp" />
+    <ClCompile Include="..\Classes\TopMenu.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\Audio.h" />
+    <ClInclude Include="..\Classes\Chinese.h" />
     <ClInclude Include="..\Classes\FloatWord.h" />
     <ClInclude Include="..\Classes\GameData.h" />
     <ClInclude Include="..\Classes\GameLayer.h" />
@@ -154,6 +159,9 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\MenuLayer.h" />
     <ClInclude Include="..\Classes\MenuScene.h" />
+    <ClInclude Include="..\Classes\Star.h" />
+    <ClInclude Include="..\Classes\StarMatrix.h" />
+    <ClInclude Include="..\Classes\TopMenu.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
