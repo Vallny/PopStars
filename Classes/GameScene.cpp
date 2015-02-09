@@ -1,5 +1,5 @@
 #include "GameScene.h"
-//#include "GameLayer.h"
+#include "GameLayer.h"
 #include "Audio.h"
 
 
@@ -8,6 +8,6 @@ bool GameScene::init(){
 		return false;
 	}
 	Audio::getInstance()->playBGM();
-	//this->addChild(GameLayer::create());
+	this->addChild(GameLayer::create());
 	return true;
 } 

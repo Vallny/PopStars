@@ -2,7 +2,7 @@
 #include "FloatWord.h"
 #include "GameData.h"
 #include "Chinese.h"
-//#include "StarMatrix.h"
+#include "StarMatrix.h"
 #include "MenuScene.h"
 #include "Audio.h"
 bool GameLayer::init(){

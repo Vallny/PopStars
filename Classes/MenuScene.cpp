@@ -10,7 +10,7 @@ bool MenuScene::init(){
 	if(!Scene::init()){
 		return false;
 	}
-	//Audio::getInstance()->playBGM();
+	Audio::getInstance()->playBGM();
 	this->addChild(MenuLayer::create());
 
 
